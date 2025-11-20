@@ -1,0 +1,73 @@
+
+        /* selektor dengan nama tag */
+        h2 {
+            color: white;
+            background-color: #333;
+            padding: 10px;
+            text-align: center;
+            border-radius: 8px;
+        }
+
+        /* selektor dengan class */
+        .bg-yellow {
+            background: linear-gradient(135deg, #fff5a3, #ffe066);
+            font-family: "Segoe UI", sans-serif;
+            min-height: 100vh;
+            padding-top: 40px;
+        }
+
+        /* selektor dengan id elemen */
+        #header {
+            background: grey;
+        }
+
+        /* selektor dengan atribut */
+        input[type=text] {
+            background: #f0fff4;
+            border: 2px solid seagreen;
+            border-radius: 6px;
+            padding: 6px 10px;
+            width: 100%;
+            box-sizing: border-box;
+            transition: 0.3s;
+        }
+
+        input[type=text]:focus {
+            outline: none;
+            border-color: #2e8b57;
+            box-shadow: 0 0 5px #2e8b57;
+        }
+
+        input[type=submit] {
+            width: 100%;
+            color: white;
+            background: darkred;
+            border: none;
+            padding: 8px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        input[type=submit]:hover {
+            background: crimson;
+        }
+
+        table {
+            background: white;
+            padding: 20px 25px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            margin: auto;
+        }
+
+        td {
+            padding: 10px 8px;
+        }
+
+        td:first-child {
+            font-weight: 600;
+            color: #333;
+        }
+   

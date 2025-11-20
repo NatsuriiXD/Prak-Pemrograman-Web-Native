@@ -1,0 +1,58 @@
+/* Selektor Tag: Mengatur tampilan dasar body dan form */
+body {
+    font-family: sans-serif;
+    background-color: #f0f8ff; /* Warna latar belakang Biru Muda */
+    padding: 20px;
+}
+
+fieldset {
+    border: 1px solid #c0c0c0;
+    padding: 20px;
+    max-width: 500px;
+    margin: 0 auto; /* Tengah di halaman */
+    background-color: white;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+legend {
+    font-size: 1.4em;
+    font-weight: bold;
+    color: #333;
+    padding: 0 10px;
+}
+
+/* Selektor Tag: Mengatur elemen input dan label */
+label {
+    display: block; /* Membuat label berada di barisnya sendiri */
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+select,
+textarea {
+    width: 95%; /* Membuat semua input lebar */
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Agar padding tidak menambah lebar total */
+}
+
+/* Selektor Atribut: Mengatur tombol submit */
+input[type="submit"] {
+    background-color: #007bff; /* Biru */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right; /* Pindah ke kanan */
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}

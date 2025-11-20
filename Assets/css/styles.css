@@ -1,0 +1,24 @@
+/* Selektor dengan nama tag */
+h2 {
+    color: blue;
+}
+
+/* Selektor dengan class */
+.bg-yellow {
+    background-color: yellow;
+}
+
+/* Selektor dengan ID elemen */
+#header {
+    background: grey;
+}
+
+/* Selektor dengan Atribut */
+input[type=text] {
+    background: seagreen;
+}
+
+input[type=submit] {
+    width: 100%;
+    color: darkred;
+}
