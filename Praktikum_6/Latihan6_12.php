@@ -2,7 +2,7 @@
 
 <body>
     <h2>Statement While</h2>
-    <form action="../Praktikum_6/Kondisi-switch-perulangan/" method="post">
+    <form action="../Praktikum_6/Kondisi-switch-perulangan/statement_while.php" method="post">
         Masukan bilangan positif:
         <input type="text" name="n" value="10">
         <input type="submit">

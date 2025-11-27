@@ -1,4 +1,4 @@
-cb <html>
+<html>
 
 <head>
     <h2>IF banyak Kondisi 2</h2>
