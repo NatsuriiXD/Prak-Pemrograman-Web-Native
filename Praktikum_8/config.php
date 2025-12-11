@@ -10,5 +10,4 @@ if (!$conn) {
     die("<script>alert('Gagal tersambung dengan database.')</script>");
 } else {
 
-    echo "Telah Terhubung dengan  database $database pada server $server";
 }
